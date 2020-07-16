@@ -1,6 +1,6 @@
-# Express Boilerplate!
+# Node Shopping List
 
-This is a boilerplate project used for starting new projects!
+This is a shopping List !
 
 ## Set up
 
@@ -24,3 +24,7 @@ Run the tests `npm test`
 ## Deploying
 
 When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's master branch.
+
+### Team member
+    Jerrad Moon,
+    Khandaker Sultana
