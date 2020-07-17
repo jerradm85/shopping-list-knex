@@ -1,10 +1,13 @@
 const knex = require('knex')
 require('dotenv').config()
+const ArticlesService = require('./shopping-list-service')
+
 
 const knexInstance = knex({
     client: 'pg',
     connection: process.env.DB_URL
 })
+console.log(ArticlesService.getAllItems())
 
 
 // function getItemsWithText(searchTerm) {
